@@ -24,6 +24,20 @@ gem 'devise'
 
 gem 'dotenv-rails'
 
+gem 'devise-jwt', '~> 0.7.0'
+
+gem 'rack-cors'
+
+# Important thing to do !!!!!
+# rails generate jsonapi:serializable User
+gem 'jsonapi-rails'
+
+gem 'rspec-rails'
+
+gem 'factory_bot_rails'
+
+gem 'jsonapi-rspec'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
